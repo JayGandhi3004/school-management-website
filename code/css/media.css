@@ -1,0 +1,819 @@
+@media(max-width:1440px) {
+    /* header .container-feild {
+        padding-left: 95px;
+        padding-right: 95px;
+    } */
+
+    .result {
+        padding: 80px 0 165px !important;
+    }
+
+    .card .card-head h6 {
+        margin-top: 115px !important;
+    }
+
+    .result .data p {
+        font-size: 20px !important;
+        line-height: 34px !important;
+        margin: 45px 0 40px 0 !important;
+    }
+
+    .card .card-head h2 {
+        margin: 20px 0 !important;
+    }
+}
+
+@media(max-width:1024px) {
+    /* header .container-feild {
+        padding-left: 94px;
+        padding-right: 63px;
+    } */
+
+    .container {
+        padding: 0 30px !important;
+    }
+
+    .result {
+        padding: 50px 0 !important;
+    }
+
+    .result .data h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        /* max-width: 50%;
+            margin: 10px 0 15px; */
+    }
+
+    .result .data p {
+        font-size: 17px !important;
+        line-height: 28px !important;
+        margin: 25px 0 20px 0 !important;
+    }
+
+    .result .data .result-btn {
+        padding: 15px 25px !important;
+    }
+
+    .card .box .card-middle {
+        display: flex;
+        cursor: pointer;
+        height: 100%;
+        margin-bottom: 50px;
+        /* margin-left: 20px; */
+        padding: 20px 0;
+        width: 98%;
+        transition: all 0.5s;
+        box-shadow: 15px 15px 20px -4px #bdbdbd;
+    }
+
+    .study .study-heading {
+        padding: 30px 0 30px 40px;
+    }
+
+    .about {
+        padding: 50px 0;
+    }
+
+    .about h3 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+        color: black;
+    }
+
+    .about p {
+        color: #636363;
+        font-size: 16px;
+        max-width: 88%;
+        margin-bottom: 15px;
+        font-weight: 400;
+    }
+
+    .about .result-btn {
+        margin-top: 20px;
+        padding: 15px 25px;
+    }
+
+    .Portfolios {
+        padding: 70px 0;
+        background-color: #f5f5f5;
+    }
+
+    .card .box .card-data p {
+        width: 77%;
+    }
+
+    .Portfolios .Portfolios-heading h3 {
+        margin-bottom: 20px;
+    }
+
+    .footer-data {
+        padding: 50px 0 50px;
+    }
+
+    .footer-data .footer-logo p {
+        width: 90%;
+        line-height: 25px;
+        margin-top: 15px;
+    }
+
+    .footer-data .col-4 {
+        width: 50%;
+    }
+
+    .footer-data .col-2 {
+        width: 50%;
+    }
+
+    .footer-data .col-3 {
+        width: 50%;
+    }
+
+    .footer-about .about-list a {
+        line-height: 25px;
+        padding: 3px 0;
+    }
+
+    .footer-about h3 {
+        margin-bottom: 15px;
+        padding-bottom: 2px;
+    }
+
+    .footer-contact h3 {
+        margin-bottom: 15px;
+        padding-bottom: 2px;
+    }
+
+    .footer-contact .social-media {
+        margin-top: 6px;
+    }
+
+    .footer-letter h3 {
+        margin-bottom: 15px;
+        padding-bottom: 2px;
+    }
+
+    .footer-letter p {
+        width: 97%;
+        line-height: 20px;
+    }
+
+    .footer-end {
+        padding-bottom: 30px;
+    }
+
+    .course-banner {
+        padding: 145px 0 !important;
+        z-index: 1;
+    }
+
+    /* .course-banner .course-data h2 {
+        font-size: 45px !important;
+    }
+
+    .course-banner .course-data p {
+        font-size: 15px !important;
+    }
+
+    .course-banner .course-data span {
+        font-size: 15px !important;
+    } */
+}
+
+@media(max-width:768px) {
+    .container-fluid button {
+        margin-left: 55%;
+    }
+
+    .container-fluid {
+        text-align: end;
+    }
+
+    .result {
+        padding: 8px 0 !important;
+    }
+
+    .result .data h2 {
+        font-size: 30px !important;
+        line-height: 38px !important;
+    }
+
+    .result .data p {
+        font-size: 17px !important;
+        line-height: 22px !important;
+        margin: 15px 0 !important;
+        padding-right: 0;
+    }
+
+    .card-media .col-4 {
+        width: 50%;
+    }
+
+    .card .card-head h6 {
+        margin-top: 50px !important;
+    }
+
+    .card .card-head h2 {
+        margin: 10px 0 !important;
+        font-size: 30px;
+    }
+
+    .card .box .icon i {
+        color: #ff7f46;
+        font-size: 30px;
+        margin-top: 18px;
+    }
+
+    .card .box .card-data h4 {
+        font-size: 17px;
+        color: black;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .card .box .card-data p {
+        font-size: 16px;
+        color: #000;
+        width: 90%;
+        font-weight: 500;
+        line-height: 21px;
+    }
+
+    .study {
+        padding: 30px 0;
+    }
+
+    .study .study-heading h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .study .study-heading p {
+        width: 78%;
+    }
+
+    .study .study-heading {
+        padding: 0 0 15px 20px;
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .about h3 {
+        font-size: 22px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-transform: capitalize;
+        color: black;
+    }
+
+    .about p {
+        color: #636363;
+        font-size: 14px;
+        max-width: 85%;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    .about .list-about li {
+        font-size: 14px;
+    }
+
+    .about .result-btn {
+        margin-top: 10px;
+        padding: 5px 22px;
+    }
+
+    .portfolio-main .col-4 {
+        width: 100%;
+    }
+
+    .Portfolios {
+        padding: 40px 0;
+    }
+
+    .Portfolios .Portfolios-heading h3 {
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+
+    .Portfolios .Portfolios-card .portfolios-data {
+        padding: 10px;
+    }
+
+    .Portfolios .Portfolios-card .portfolios-data h6 {
+        font-size: 15px;
+    }
+
+    .Portfolios .Portfolios-card .portfolios-data p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .footer-data {
+        padding: 30px 0;
+    }
+
+    .footer-data .footer-logo img {
+        width: 30%;
+    }
+
+    .footer-data .footer-logo p {
+        width: 88%;
+        line-height: 24px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .footer-about h3 {
+        font-size: 16px;
+    }
+
+    .footer-data .col-4 {
+        width: 50%;
+    }
+
+    .footer-data .col-2 {
+        width: 50%;
+    }
+
+    .footer-data .col-3 {
+        width: 50%;
+    }
+
+    .footer-about h3 {
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+    }
+
+    .footer-contact h3 {
+        margin: 16px 0;
+        padding-bottom: 2px;
+    }
+
+    .footer-letter h3 {
+        margin: 15px 0;
+        padding-bottom: 2px;
+    }
+
+    .course-banner .course-data h2 {
+        font-size: 42px !important;
+        line-height: 22px !important;
+    }
+
+    .course-banner {
+        padding: 115px 0 !important;
+        z-index: 1;
+    }
+
+    .course-main .col-4 {
+        width: 50%;
+    }
+
+    .course-eduction-card {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:426px) {
+    .header-logo img {
+        width: 30%;
+    }
+
+    .container-fluid button {
+        margin-left: 45%;
+    }
+
+    .container-fluid {
+        display: inline !important;
+    }
+
+    /* .result{
+        padding: 0 !important;
+    } */
+    .result .data h2 {
+        font-size: 15px !important;
+        line-height: 20px !important;
+        margin: 0 0 10px 0 !important;
+    }
+
+    .result .data p {
+        font-size: 10px !important;
+        line-height: 14px !important;
+        margin: -8px 0 !important;
+        padding-right: 0;
+    }
+
+    .result .data .result-btn {
+        padding: 5px 10px !important;
+    }
+
+    .card .card-head h6 {
+        margin-top: 1px !important;
+    }
+
+    .card .card-head h2 {
+        margin: 5px 0 !important;
+        font-size: 20px;
+    }
+
+    .card-media .col-4 {
+        width: 50%;
+    }
+
+    .card .box .card-data h4 {
+        font-size: 12px !important;
+        margin-top: 2px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .card .box .card-data p {
+        line-height: 18px !important;
+        font-size: 12px !important;
+    }
+
+    .card .box .icon i {
+        font-size: 20px !important;
+    }
+
+    .card .box .card-middle {
+        margin-bottom: 25px !important;
+    }
+
+    .study {
+        padding: 15px 0;
+    }
+
+    .study-main .col-4 {
+        width: 100%;
+    }
+
+    .study-main .col-8 {
+        width: 100%;
+    }
+
+    .study .study-heading h3 {
+        font-size: 20px !important;
+        margin-bottom: 2px;
+    }
+
+    .study .study-heading {
+        padding: 0 !important;
+    }
+
+    .study .study-heading p {
+        width: 90% !important;
+        color: white;
+        font-size: 12px !important;
+        font-weight: 400;
+    }
+
+    .about-main .col-6 {
+        width: 100%;
+    }
+
+    .about {
+        padding: 15px 0 !important;
+    }
+
+    .about span {
+        font-size: 15px !important;
+    }
+
+    .about h3 {
+        font-size: 18px !important;
+    }
+
+    .about p {
+        max-width: 90% !important;
+    }
+
+    .about .result-btn {
+        margin: 10px 0 !important;
+        padding: 5px 22px;
+    }
+
+    .Portfolios {
+        padding: 20px 0 !important;
+    }
+
+    .Portfolios .Portfolios-heading h3 {
+        font-size: 30px !important;
+    }
+
+    .portfolio-main .col-4 {
+        width: 100%;
+    }
+
+    .footer-data .footer-logo p {
+        width: 85%;
+        line-height: 18px;
+        margin-top: 1px;
+        font-size: 12px;
+    }
+
+    .footer-about h3 {
+        font-size: 14px;
+        margin-bottom: 5px !important;
+    }
+
+    .footer-about .about-list a {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .footer-contact h3 {
+        font-size: 14px !important;
+    }
+
+    .footer-contact p {
+        width: 80% !important;
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    .footer-contact a {
+        line-height: 20px !important;
+        font-size: 12px !important;
+    }
+
+    .footer-contact .social-media a {
+        padding: 4px !important;
+    }
+
+    .footer-letter h3 {
+        font-size: 14px !important;
+    }
+
+    .e-mail {
+        padding: 15px 0 !important;
+    }
+
+    .footer-label .e-mail button {
+        margin-top: 0px !important;
+        padding: 3px 10px !important;
+    }
+
+    .footer-label .e-mail input {
+        height: 40px !important;
+        padding: 3px 40px 3px 20px;
+        width: 100%;
+    }
+
+    .footer-end .end-list li {
+        padding: 5px 8px;
+        width: 28%;
+        font-size: 10px;
+        color: white;
+        transition: all 0.5s;
+    }
+
+    .footer-end {
+        padding-bottom: 15px;
+    }
+
+    .footer-end .edour p {
+        line-height: 15px !important;
+        font-size: 10px !important;
+    }
+
+    .course-banner .course-data h2 {
+        font-size: 30px !important;
+        line-height: 12px !important;
+    }
+
+    .course-banner {
+        padding: 50px 0 !important;
+        z-index: 1;
+    }
+
+    .course-banner .course-data span {
+        font-size: 18px !important;
+    }
+
+    .course-eduction .course-eduction-heading h3 {
+        font-size: 30px !important;
+    }
+
+    .course-main .col-4 {
+        width: 100%;
+    }
+
+    .footer-data .col-4 {
+        width: 100%;
+    }
+
+    .footer-data .col-2 {
+        width: 100%;
+    }
+
+    .footer-data .col-3 {
+        width: 100%;
+    }
+
+}
+
+@media(max-width:376px) {
+    .container-fluid button {
+        margin-left: 40%;
+    }
+
+    .result .data h2 {
+        font-size: 13px !important;
+        line-height: 15px !important;
+    }
+
+    .result .data p {
+        font-size: 8px !important;
+        line-height: 12px !important;
+        padding-right: 0 !important;
+    }
+
+    .result .data .result-btn {
+        font-size: 10px !important;
+    }
+
+    .card .card-head h6 {
+        font-size: 15px !important;
+    }
+
+    .card .card-head h2 {
+        font-size: 18px !important;
+    }
+
+    .card-media .col-4 {
+        width: 100%;
+    }
+
+    .footer-label .e-mail input {
+        height: 35px !important;
+        padding: 2px 20px 2px 10px;
+        font-size: 12px !important;
+        width: 100%;
+    }
+
+    .footer-label .e-mail button {
+        padding: 4px 9px !important;
+    }
+
+    .footer-label .e-mail button {
+        right: 6px !important;
+        margin-top: 5px;
+        padding: 5px 15px;
+        font-size: 10px;
+    }
+
+    .footer-end .end-list {
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .footer-padding {
+        text-align: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-data .footer-logo p {
+        width: 100% !important;
+    }
+
+    .footer-contact p {
+        width: 100% !important;
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    .footer-letter p {
+        width: 100% !important;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .footer-letter p {
+        width: 75%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .course-banner .course-data span {
+        font-size: 14px !important;
+    }
+
+    .course-banner .course-data h2 {
+        font-size: 25px !important;
+    }
+
+    .course-eduction .course-eduction-heading h3 {
+        font-size: 25px !important;
+    }
+}
+
+@media(max-width:320px) {
+    .container-fluid button {
+        margin-left: 35%;
+    }
+
+    .result .data h2 {
+        font-size: 10px !important;
+        line-height: 12px !important;
+    }
+
+    .result .data p {
+        font-size: 7px !important;
+        line-height: 10px !important;
+    }
+
+    .footer-data .col-4 {
+        width: 100%;
+    }
+
+    .footer-data .col-2 {
+        width: 100%;
+    }
+
+    .footer-data .col-3 {
+        width: 100%;
+    }
+
+    .footer-end .col-6 {
+        width: 100%;
+    }
+
+    .footer-data .footer-logo p {
+        margin-bottom: 20px;
+    }
+
+    .footer-end .edour p {
+        line-height: 15px !important;
+        font-size: 8px !important;
+        text-align: center !important;
+        margin: 10px;
+    }
+
+    .footer-label .e-mail input {
+        height: 55px !important;
+        padding: 2px 20px 5px 10px;
+        width: 100%;
+    }
+
+    .footer-label .e-mail button {
+        right: 14px !important;
+        padding: 7px 15px !important;
+    }
+
+    .footer-end .end-list {
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .footer-padding {
+        text-align: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-data .footer-logo p {
+        width: 100% !important;
+    }
+
+    .footer-contact p {
+        width: 100% !important;
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    .footer-letter p {
+        width: 100% !important;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .course-banner .course-data h2 {
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+
+    .course-banner .course-data p {
+        font-size: 12px !important;
+    }
+
+    .course-banner {
+        padding: 30px 0 !important;
+        z-index: 1;
+    }
+
+    .course-eduction .course-eduction-heading h3 {
+        font-size: 20px !important;
+    }
+}

@@ -1,0 +1,815 @@
+/* ============= VARIABLE ============= */
+:root {
+    --primary: #ff7f46;
+    --secondary: #0f2239;
+}
+
+/* ============= DEFAULT CSS ============= */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var('poppins');
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* ====================== HEADER ====================== */
+.header-logo img {
+    /* width: 60%; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.container-fluid .collapse .navbar-nav .nav-item a{
+    color:#000;
+    font-weight: 700;
+    font-family: var('poppins');
+    transition: all 0.5s;
+}
+.container-fluid .collapse .navbar-nav .nav-item a:hover{
+    color: #ff7f46;
+}
+
+.collapse {
+    display: flex;
+    justify-content: space-around;
+}
+.dropdown{
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-toggle{
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu li a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu li a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/* ======================== HEADER-IMG ======================== */
+
+.header-img {
+    padding: 0 0 110px;
+    position: absolute;
+    z-index: -1;
+}
+
+.result {
+    padding: 140px 0;
+    z-index: 1;
+}
+
+.result .data {
+    position: relative;
+}
+
+.result .data h2 {
+    font-size: 55px;
+    color: var(--secondary);
+    font-weight: 600;
+    line-height: 75px;
+    max-width: 50%;
+    margin: 10px 0 15px;
+}
+
+.result .data h2 a {
+    color: #ff7f46;
+    text-decoration: underline;
+}
+
+.result .data p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    width: 45%;
+    padding: 0 50px 0 0;
+    margin: 45px 0 40px 0;
+    color: #636363;
+}
+
+.result .data .result-btn {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ff7f46;
+    border: 1px solid #ff7f46;
+    border-radius: 50px;
+    height: 55px;
+    padding: 20px 36px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 55px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 7%);
+    ;
+    transition: all 0.5s;
+}
+
+.result .data .result-btn:hover {
+    border: none;
+    background-color: #ff7f46;
+    color: white;
+}
+
+/* ========================== card ==========================  */
+.card {
+    background-color: White;
+}
+
+.card .card-head h6 {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ff7f46;
+    text-align: center;
+}
+
+.card .use .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .box .card-middle {
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    width: 74%;
+    transition: all 0.5s;
+    box-shadow: 15px 15px 20px -4px #bdbdbd;
+}
+
+.card .box .card-middle:hover {
+    background-color: #bdbdbd;
+}
+
+.card .box .icon {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+.card .box .icon i {
+    color: #ff7f46;
+    margin-top: 18px;
+}
+
+.card .box .card-data h4 {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    line-height: 25.2px;
+    margin-top: 18px;
+}
+
+.card .box .card-data p {
+    font-size: 16px;
+    color: #000;
+    width: 70%;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 7px;
+}
+
+.card .card-head h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* ========================== study ========================== */
+
+.study {
+    padding: 50px 0;
+    overflow: hidden;
+    background: url(../images/background.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.study .study-heading {
+    padding: 70px 0 0 40px;
+}
+
+.study .study-heading h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.study .study-heading p {
+    width: 70%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.study .study-data {
+    margin-top: 40px;
+}
+
+.study .study-padding {
+    padding: 0 12px;
+    margin-top: 40px;
+}
+
+.study .study-data .study-morden {
+    padding: 0 12px;
+    margin-top: 40px;
+}
+
+.study .study-data .study-morden p {
+    color: #333333;
+    margin-top: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.study .study-data .study-morden h6 {
+    font-size: 18px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.study .study-data .study-morden {
+    padding: 0 12px;
+    margin-top: 40px;
+}
+
+.study .study-data .study-unique {
+    padding: 0 12px;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+.study .study-data .study-unique p {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+    margin-top: 13px;
+    width: 80%;
+}
+
+.study .study-data .study-unique h6 {
+    color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ========================== portfolios  ========================== */
+.Portfolios {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+}
+
+.Portfolios .Portfolios-heading h3 {
+    font-size: 48px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--secondary);
+}
+
+.Portfolios .Portfolios-heading h6 {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: var(--primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Portfolios-padding {
+    margin: 15px;
+}
+
+.Portfolios .Portfolios-card {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 15px 15px 20px -4px #bdbdbd;
+    transition: all 0.5s;
+    height: 80%;
+    width: 100%;
+    box-sizing: border-box !important;
+}
+
+.Portfolios .Portfolios-card .Portfolios-img img {
+    transition: all 0.5s;
+}
+
+.Portfolios .Portfolios-card .Portfolios-img:hover img {
+    /* overflow: hidden; */
+    transform: scale(1.1);
+}
+
+.Portfolios-img {
+    overflow: hidden;
+}
+
+.Portfolios .Portfolios-card .Portfolios-img img {
+    width: 100%;
+    height: auto;
+}
+
+.Portfolios .Portfolios-card .portfolios-data {
+    padding: 20px;
+}
+
+.Portfolios .Portfolios-card:hover {
+    border: 2px solid black;
+}
+
+.Portfolios .Portfolios-card .portfolios-data p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #636363;
+    transition: all 0.5s;
+}
+
+.Portfolios .Portfolios-card .portfolios-data h6 {
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s;
+}
+
+.e-mail {
+    padding: 22px 0;
+    position: relative;
+}
+
+.footer-label .e-mail input {
+    border-radius: 30px;
+    height: 50px;
+    width: 90%;
+    outline: none;
+    color: #777;
+    padding: 3px 50px 3px 20px;
+    background-color: white;
+    width: 100%;
+    transition: all 0.5s;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.footer-label .e-mail input:hover {
+    border: 3px solid #ff7f46;
+}
+
+.footer-label .e-mail button {
+    position: absolute;
+    right: 12px;
+    margin-top: 5px;
+    padding: 5px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff7f46;
+    top: 30%;
+    font-weight: 500;
+    transition: all 0.5s;
+    color: white;
+}
+
+.footer-label .e-mail button:hover {
+    background: transparent;
+    color: black;
+    font-weight: 500;
+    border: 2px solid #ff7f46;
+}
+
+/* ========================== footer  ========================== */
+footer {
+    background-color: #000;
+}
+
+.footer-data {
+    padding: 130px 0 50px;
+}
+
+.footer-data .footer-logo img {
+    width: 170px;
+    color: #fff;
+}
+
+.footer-data .footer-logo p {
+    font-size: 16px;
+    width: 70%;
+    color: #fff;
+    line-height: 1.8;
+    margin-top: 28px;
+}
+
+.footer-padding {
+    padding: 0 12px;
+}
+
+.footer-about .about-list {
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.footer-about h3 {
+    font-size: 18px;
+    margin-bottom: 19px;
+    color: white;
+    padding-bottom: 13px;
+}
+
+.footer-about .about-list a {
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 500;
+    transition: all 0.5s;
+    padding: 3px 0;
+    color: white;
+}
+
+.footer-about .about-list a:hover {
+    text-decoration: underline;
+    color: #ff7f46;
+}
+
+.footer-contact h3 {
+    margin-bottom: 19px;
+    font-size: 18px;
+    padding-bottom: 13px;
+    color: white;
+}
+
+.footer-contact p {
+    width: 60%;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    line-height: 2;
+}
+
+.footer-contact a {
+    line-height: 2;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.footer-contact .social-media {
+    margin-top: 20px;
+}
+
+.footer-contact .social-media a {
+    padding: 5px 5px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.footer-contact .social-media a:hover {
+    color: #ff7f46;
+}
+
+.footer-end {
+    padding-bottom: 50px;
+}
+
+.footer-end .end-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+}
+
+.center {
+    align-items: center;
+}
+
+.footer-end .end-list li {
+    padding: 5px 12px;
+    font-size: 14px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.footer-end .end-list li:hover {
+    text-decoration: underline;
+    color: #ff7f46;
+}
+
+.footer-end .edour {
+    text-align: right;
+}
+
+.footer-end .edour p {
+    color: white;
+    line-height: 2;
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer-end .edour i {
+    color: red;
+}
+
+
+.footer-letter h3 {
+    margin-bottom: 19px;
+    font-size: 18px;
+    padding-bottom: 13px;
+    color: white;
+}
+
+.footer-letter p {
+    width: 75%;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    line-height: 2;
+}
+
+
+/* =========about========== */
+.about {
+    padding: 100px 0 0 0;
+}
+
+.about .list-about {
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.about span {
+    color: #ff7f46;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.about h3 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.about p {
+    color: #636363;
+    font-size: 16px;
+    max-width: 75%;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.about .list-about li i {
+    padding-right: 5px;
+    color: #ff7f46;
+}
+
+.about .list-about li {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #636363;
+    cursor: pointer;
+}
+
+.about .list-about li:hover {
+    text-decoration: underline;
+}
+
+.about .result-btn {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #ff7f46;
+    border: 1px solid #ff7f46;
+    border-radius: 50px;
+    height: 55px;
+    padding: 16px 36px;
+    font-weight: 600;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 7%);
+    transition: all 0.5s;
+}
+
+.about .result-btn:hover {
+    border: none;
+    background-color: #ff7f46;
+    color: white;
+}
+
+
+.course-img {
+    padding: 0 0 110px;
+    position: absolute;
+    z-index: -1;
+}
+
+.course-banner {
+    padding: 260px 0;
+    z-index: 1;
+}
+
+.course-banner .course-data {
+    position: relative;
+}
+
+.course-banner .course-data h2 {
+    font-size: 55px;
+    color: var(--secondary);
+    font-weight: 600;
+    line-height: 75px;
+    max-width: 50%;
+}
+
+.course-banner .course-data h2 a {
+    color: #ff7f46;
+    text-decoration: underline;
+}
+
+.course-banner .course-data p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    width: 45%;
+    color: #636363;
+}
+
+.course-banner .course-data span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    width: 45%;
+    color: #ff7f46;
+}
+
+/* =========course-eduction======== */
+.course-eduction {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.course-eduction .course-eduction-heading h3 {
+    font-size: 38px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.course-eduction .course-eduction-heading h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.course-eduction .course-eduction-card {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 15px 15px 20px -4px #bdbdbd;
+    transition: all 0.5s;
+    height: 80%;
+    width: 80%;
+}
+
+.course-eduction .course-eduction-card .course-eduction-img img {
+    transition: all 0.5s;
+}
+
+.course-eduction .course-eduction-card .course-eduction-img:hover img {
+    /* overflow: hidden; */
+    transform: scale(1.1);
+}
+
+.course-eduction-img {
+    overflow: hidden;
+}
+
+.course-eduction .course-eduction-card .course-eduction-img img {
+    width: 100%;
+    height: auto;
+}
+
+.course-eduction .course-eduction-card .course-eduction-data {
+    padding: 20px;
+}
+
+.course-eduction .course-eduction-card:hover {
+    border: 2px solid black;
+}
+
+.course-eduction .course-eduction-card .course-eduction-data p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #636363;
+    transition: all 0.5s;
+}
+
+.course-eduction .course-eduction-card .course-eduction-data h6 {
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s;
+}
