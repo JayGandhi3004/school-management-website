@@ -193,13 +193,12 @@
     .collapse {
         justify-content: left !important;
         position: fixed;
-        background-color: white;
+        background-color: #eaf1f9;
         z-index: 999;
     }
 
     .container-fluid {
         /* text-align: end; */
-
         text-align: left !important;
         display: inline !important;
 
@@ -428,7 +427,7 @@
     }
 
     .card .card-head h6 {
-        margin-top: 1px !important;
+        margin-top: 5px !important;
     }
 
     .card .card-head h2 {
