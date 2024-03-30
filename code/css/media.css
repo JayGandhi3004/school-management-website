@@ -389,7 +389,7 @@
 
 @media(max-width:426px) {
     .header-logo img {
-        width: 30%;
+        width: 30% !important;
     }
 
     .container-fluid button {
