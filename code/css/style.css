@@ -147,6 +147,7 @@ body {
 
 .dropdown:hover .dropdown-menu {
     display: block;
+    border: none;
 }
 
 .main-content {
@@ -872,8 +873,8 @@ footer {
     overflow: hidden;
     box-shadow: 15px 15px 20px -4px #bdbdbd;
     transition: all 0.5s;
-    /* height: 80%;
-    width: 80%; */
+    /* height: 90%;
+    width: 90%; */
 }
 
 .event-eduction .event-eduction-card .event-eduction-img img {
