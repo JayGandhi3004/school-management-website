@@ -440,6 +440,15 @@
         sidebarToggleBtn.addEventListener("click", function () {
             sidebar.classList.toggle("show");
         });
+
+        document.addEventListener("click", function (event) {
+            var isClickInside =
+                sidebar.contains(event.target) ||
+                sidebarToggleBtn.contains(event.target);
+            if (!isClickInside && sidebar.classList.contains("show")) {
+                sidebar.classList.remove("show");
+            }
+        });
     </script>
 </body>
 
