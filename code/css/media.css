@@ -190,201 +190,217 @@
         transition: all 0.5s;
     }
 
-    
-    .header-logo-sidebar    img {
+    .header-logo-sidebar img {
         width: 50% !important;
-        padding: 15px; 
+        padding: 15px !important;
     }
 
 
-.result {
-    padding: 8px 0 !important;
-}
+    .result {
+        padding: 8px 0 !important;
+    }
 
-.result .data h2 {
-    font-size: 30px !important;
-    line-height: 38px !important;
-}
+    .result .data h2 {
+        font-size: 30px !important;
+        line-height: 38px !important;
+    }
 
-.result .data p {
-    font-size: 17px !important;
-    line-height: 22px !important;
-    margin: 15px 0 !important;
-    padding-right: 0;
-}
+    .result .data p {
+        font-size: 17px !important;
+        line-height: 22px !important;
+        margin: 15px 0 !important;
+        padding-right: 0;
+    }
 
-.card-media .col-4 {
-    width: 50%;
-}
+    .card-media .col-4 {
+        width: 50%;
+    }
 
-.card .card-head h6 {
-    margin-top: 50px !important;
-}
+    .card .card-head h6 {
+        margin-top: 50px !important;
+    }
 
-.card .card-head h2 {
-    margin: 10px 0 !important;
-    font-size: 30px;
-}
+    .card .card-head h2 {
+        margin: 10px 0 !important;
+        font-size: 30px;
+    }
 
-.card .box .icon i {
-    color: #ff7f46;
-    font-size: 30px;
-    margin-top: 18px;
-}
+    .card .box .icon i {
+        color: #ff7f46;
+        font-size: 30px;
+        margin-top: 18px;
+    }
 
-.card .box .card-data h4 {
-    font-size: 17px;
-    color: black;
-    font-weight: 600;
-    margin-top: 10px;
-}
+    .card .box .card-data h4 {
+        font-size: 17px;
+        color: black;
+        font-weight: 600;
+        margin-top: 10px;
+    }
 
-.card .box .card-data p {
-    font-size: 16px;
-    color: #000;
-    width: 90%;
-    font-weight: 500;
-    line-height: 21px;
-}
+    .card .box .card-data p {
+        font-size: 16px;
+        color: #000;
+        width: 90%;
+        font-weight: 500;
+        line-height: 21px;
+    }
 
-.study {
-    padding: 30px 0;
-}
+    .study {
+        padding: 30px 0;
+    }
 
-.study .study-heading h3 {
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 6px;
-}
+    .study .study-heading h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
 
-.study .study-heading p {
-    width: 78%;
-}
+    .study .study-heading p {
+        width: 78%;
+    }
 
-.study .study-heading {
-    padding: 0 0 15px 20px;
-}
+    .study .study-heading {
+        padding: 0 0 15px 20px;
+    }
 
-.about {
-    padding: 30px 0;
-}
+    .about {
+        padding: 30px 0;
+    }
 
-.about h3 {
-    font-size: 22px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    text-transform: capitalize;
-    color: black;
-}
+    .about h3 {
+        font-size: 22px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-transform: capitalize;
+        color: black;
+    }
 
-.about p {
-    color: #636363;
-    font-size: 14px;
-    max-width: 85%;
-    margin-bottom: 10px;
-    font-weight: 400;
-}
+    .about p {
+        color: #636363;
+        font-size: 14px;
+        max-width: 85%;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
 
-.about .list-about li {
-    font-size: 14px;
-}
+    .about .list-about li {
+        font-size: 14px;
+    }
 
-.about .result-btn {
-    margin-top: 10px;
-    padding: 5px 22px;
-}
+    .about .result-btn {
+        margin-top: 10px;
+        padding: 5px 22px;
+    }
 
-.portfolio-main .col-4 {
-    width: 100%;
-}
+    .portfolio-main .col-4 {
+        width: 100%;
+    }
 
-.Portfolios {
-    padding: 40px 0;
-}
+    .Portfolios {
+        padding: 40px 0;
+    }
 
-.Portfolios .Portfolios-heading h3 {
-    margin-bottom: 10px;
-    font-size: 40px;
-}
+    .Portfolios .Portfolios-heading h3 {
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
 
-.Portfolios .Portfolios-card .portfolios-data {
-    padding: 10px;
-}
+    .Portfolios .Portfolios-card .portfolios-data {
+        padding: 10px;
+    }
 
-.Portfolios .Portfolios-card .portfolios-data h6 {
-    font-size: 15px;
-}
+    .Portfolios .Portfolios-card .portfolios-data h6 {
+        font-size: 15px;
+    }
 
-.Portfolios .Portfolios-card .portfolios-data p {
-    font-size: 12px;
-    margin-top: 5px;
-}
+    .Portfolios .Portfolios-card .portfolios-data p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
 
-.footer-data {
-    padding: 30px 0;
-}
+    .footer-data {
+        padding: 30px 0;
+    }
 
-.footer-data .footer-logo img {
-    width: 50% !important;
-    margin-bottom: 20px !important;
-}
+    .footer-data .footer-logo img {
+        width: 50% !important;
+        margin-bottom: 20px !important;
+    }
 
-.footer-data .footer-logo p {
-    width: 88%;
-    line-height: 24px;
-    margin-top: 10px;
-    font-size: 14px;
-}
+    .footer-data .footer-logo p {
+        width: 88%;
+        line-height: 24px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
 
-.footer-about h3 {
-    font-size: 16px;
-}
+    .footer-about h3 {
+        font-size: 16px;
+    }
 
-.footer-data .col-4 {
-    width: 50%;
-}
+    .footer-data .col-4 {
+        width: 50%;
+    }
 
-.footer-data .col-2 {
-    width: 50%;
-}
+    .footer-data .col-2 {
+        width: 50%;
+    }
 
-.footer-data .col-3 {
-    width: 50%;
-}
+    .footer-data .col-3 {
+        width: 50%;
+    }
 
-.footer-about h3 {
-    margin-bottom: 10px;
-    padding-bottom: 2px;
-}
+    .footer-about h3 {
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+    }
 
-.footer-contact h3 {
-    /* margin: 16px 0; */
-    padding-bottom: 2px;
-}
+    .footer-contact h3 {
+        /* margin: 16px 0; */
+        padding-bottom: 2px;
+    }
 
-.footer-letter h3 {
-    margin: 15px 0;
-    padding-bottom: 2px;
-}
+    .footer-letter h3 {
+        margin: 15px 0;
+        padding-bottom: 2px;
+    }
 
-.course-banner .course-data h2 {
-    font-size: 42px !important;
-    line-height: 22px !important;
-}
+    .course-banner .course-data h2 {
+        font-size: 42px !important;
+        line-height: 22px !important;
+    }
 
-.course-banner {
-    padding: 115px 0 !important;
-    z-index: 1;
-}
+    .course-banner {
+        padding: 115px 0 !important;
+        z-index: 1;
+    }
 
-.course-main .col-4 {
-    width: 50%;
-}
+    .course-main .col-4 {
+        width: 50%;
+    }
 
-.course-eduction-card {
-    width: 100% !important;
+    .course-eduction-card {
+        width: 100% !important;
 
-}
+    }
+
+    .event-banner {
+        padding: 110px 0 !important;
+    }
+
+    .event-banner .event-data h2 {
+        font-size: 40px !important;
+        line-height: 30px !important;
+    }
+
+    .event-main .col-4 {
+        width: 50%;
+    }
+
+    .event-eduction {
+        padding: 50px 0 !important;
+    }
 }
 
 @media(max-width:426px) {
@@ -642,6 +658,32 @@
 
     .footer-end .end-list {
         margin: 0 !important;
+    }
+
+    .course-banner {
+        padding: 45px 0 !important;
+    }
+
+    .course-banner .course-data h2 {
+        font-size: 30px !important;
+        line-height: 20px !important;
+    }
+
+    .event-eduction-card {
+        width: 100%;
+    }
+
+    .event-banner {
+        padding: 45px 0 !important;
+    }
+
+    .event-main .col-4 {
+        width: 100%;
+    }
+
+    .event-banner .event-data h2 {
+        font-size: 30px !important;
+        line-height: 20px !important;
     }
 }
 

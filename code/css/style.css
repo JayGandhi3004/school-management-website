@@ -733,8 +733,7 @@ footer {
 }
 
 .course-banner {
-    padding: 140px 0;
-    z-index: 1;
+    padding: 235px 0;
 }
 
 .course-banner .course-data {
@@ -800,8 +799,6 @@ footer {
     overflow: hidden;
     box-shadow: 15px 15px 20px -4px #bdbdbd;
     transition: all 0.5s;
-    height: 80%;
-    width: 80%;
 }
 
 .course-eduction .course-eduction-card .course-eduction-img img {
@@ -841,4 +838,121 @@ footer {
     font-size: 18px;
     color: black;
     transition: all 0.5s;
+}
+
+
+/* =============event============= */
+.event-eduction {
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+
+.event-eduction .event-eduction-heading h3 {
+    font-size: 38px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary);
+}
+
+.event-eduction .event-eduction-heading h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-eduction .event-eduction-card {
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 15px 15px 20px -4px #bdbdbd;
+    transition: all 0.5s;
+    /* height: 80%;
+    width: 80%; */
+}
+
+.event-eduction .event-eduction-card .event-eduction-img img {
+    transition: all 0.5s;
+}
+
+.event-eduction .event-eduction-card .event-eduction-img:hover img {
+    transform: scale(1.1);
+}
+
+.event-eduction-img {
+    overflow: hidden;
+}
+
+.event-eduction .event-eduction-card .event-eduction-img img {
+    width: 100%;
+    height: auto;
+}
+
+.event-eduction .event-eduction-card .event-eduction-data {
+    padding: 20px;
+}
+
+.event-eduction .event-eduction-card:hover {
+    border: 2px solid black;
+}
+
+.event-eduction .event-eduction-card .event-eduction-data p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #636363;
+    transition: all 0.5s;
+}
+
+.event-eduction .event-eduction-card .event-eduction-data h6 {
+    font-size: 18px;
+    color: black;
+    transition: all 0.5s;
+}
+
+
+.event-img {
+    padding: 0 0 110px;
+    position: absolute;
+    z-index: -1;
+}
+.event-banner {
+    padding: 235px 0;
+}
+
+.event-banner .event-data {
+    position: relative;
+}
+
+.event-banner .event-data h2 {
+    font-size: 55px;
+    color: var(--secondary);
+    font-weight: 600;
+    line-height: 75px;
+    max-width: 50%;
+}
+
+.event-banner .event-data h2 a {
+    color: #ff7f46;
+    text-decoration: underline;
+}
+
+.event-banner .event-data p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    width: 45%;
+    color: #636363;
+}
+
+.event-banner .event-data span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    width: 45%;
+    color: #ff7f46;
 }
