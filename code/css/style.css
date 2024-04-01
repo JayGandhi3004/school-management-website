@@ -139,6 +139,7 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    /* border-bottom: 1px solid black; */
 }
 
 .dropdown-menu li a:hover {
@@ -147,7 +148,7 @@ body {
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    border: none;
+    /* border: none; */
 }
 
 .main-content {
