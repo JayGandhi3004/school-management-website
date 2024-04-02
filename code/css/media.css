@@ -212,7 +212,11 @@
         padding-right: 0;
     }
 
-    .dropdown-menu li a:nth-child(1){
+    .border-none a{
+        border: none !important;
+    }
+
+    .dropdown-menu li a{
         border-bottom: 1px solid #000;
     }
 
@@ -926,4 +930,26 @@
         font-size: 20px !important;
     }
 
+    .event-banner .event-data h2 {
+        font-size: 25px !important;
+        line-height: 15px !important;
+    }
+
+    .event-banner .event-data span {
+        font-size: 15px !important;
+    }
+
+    .event-banner .event-data p {
+        font-size: 15px !important;
+    }
+
+    .event-eduction .event-eduction-heading h6 {
+        font-size: 15px !important;
+    }
+
+    .event-eduction .event-eduction-heading h3 {
+        font-size: 18px !important;
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+    }
 }
