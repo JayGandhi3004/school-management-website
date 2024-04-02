@@ -217,7 +217,7 @@
     }
 
     .dropdown-menu li a{
-        border-bottom: 1px solid #000;
+        border-bottom: 1px solid #636363;
     }
 
     .dropdown:hover .dropdown-menu {
