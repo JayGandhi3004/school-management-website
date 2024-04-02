@@ -134,6 +134,10 @@ body {
     z-index: 1;
 }
 
+.dropdown-menu.show {
+    display: block;
+}
+
 .dropdown-menu li a {
     color: black;
     padding: 12px 16px;
@@ -922,6 +926,7 @@ footer {
     position: absolute;
     z-index: -1;
 }
+
 .event-banner {
     padding: 235px 0;
 }
